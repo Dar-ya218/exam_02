@@ -7,3 +7,9 @@ void	ft_putstr(char *str)
 	while (str[i])
 		write(1, &str[i++], 1);
 }
+
+int main()
+{
+    ft_putstr("¡Hola, mundo!");
+    return 0;
+}
